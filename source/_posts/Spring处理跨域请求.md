@@ -10,7 +10,7 @@ categories:
 
 1. 在你的Controller类或者全局配置类上添加`@CrossOrigin`注解来启用跨域请求处理。这个注解可以放在类级别或者方法级别上，具体取决于你的需求。
 
-   ````java
+   ```java
    @RestController
    @CrossOrigin(origins = "http://example.com")
    public class YourController {
@@ -32,7 +32,7 @@ categories:
 
    下面是一个示例，演示如何同时设置多个属性：
 
-   ````java
+   ```java
    @CrossOrigin(origins = "http://example.com", methods = {RequestMethod.GET, RequestMethod.POST}, allowedHeaders = "Content-Type", allowCredentials = true)
    ```
 
