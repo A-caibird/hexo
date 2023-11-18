@@ -1,10 +1,15 @@
 ---
-title: SpringBoot请求参数与响应返回值,ResponseEntity<T>自定义响应
+title: SpringBoot请求参数与响应返回值
 date: 2023-11-18 00:06:58
+summary: SpringBoot请求参数与响应返回值,ResponseEntity<T>自定义响应 
+categories:
+  - SpringBoot
 tags:
+  - SpringBoot
+  - 
 ---
 ## 请求体参数
-springboot 请求体参数需要是一个bean(也就是要`@service @controler @Resposity`注解),才能正确接受前端传过来的json数据.否则就使用`Map`作为请求体参数类型
+`SpringBoot` 请求体参数需要是一个bean(也就是要`@service @controler @Resposity`注解),才能正确接受前端传过来的json数据.否则就使用`Map`作为请求体参数类型
 
 ## 返回值
 springboot返回值类型,默认只是支持`String,List,Map`等数据类型作为返回值类型,会经过处理转化成JSON传入给前端.
