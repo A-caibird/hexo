@@ -2,9 +2,9 @@
 title: Spring处理跨域请求
 date: 2023-11-18 16:33:05
 tags:
- - spring
+ - Spring
 categories:
- - spring
+ - Spring
 ---
 当使用Spring Boot处理跨域请求时，可以通过以下步骤来实现：
 

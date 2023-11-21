@@ -3,9 +3,9 @@ title: pm2后台运行 node,js 项目
 date: 2023-11-19 20:26:50
 tags:
   - pm2
-  - node.js
+  - Node.js
 categories:
-  - node.js
+  - Node.js
 summary: pm2后台运行 node,js 项目 
 ---
 在 CentOS 终端中启动 Node.js 项目时，如果你关闭终端，该项目也会停止运行，这是因为终端关闭会导致该进程的终止。为了解决这个问题，你可以使用一些方法来让项目在后台持续运行，即使终端关闭。以下是几种可行的方法：

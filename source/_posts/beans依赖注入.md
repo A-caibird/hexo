@@ -3,7 +3,7 @@ title: beans依赖注入
 date: 2023-11-18 15:39:17
 summary: Spring框架中，Beans之间的依赖注入是通过IoC容器来实现的 
 tags:
- - spring
+ - Spring
 categories:
  - spring
 

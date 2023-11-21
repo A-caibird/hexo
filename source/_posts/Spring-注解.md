@@ -2,9 +2,9 @@
 title: Spring 注解
 date: 2023-11-18 16:31:28
 tags:
- - spring
+ - Spring
 categories: 
- - spring
+ - Spring
 summary: Spring Boot是一个用于构建Java应用程序的开源框架，它简化了基于Spring框架的应用程序的开发过程。
 ---
 Spring Boot是一个用于构建Java应用程序的开源框架，它简化了基于Spring框架的应用程序的开发过程。Spring Boot提供了许多注解，用于配置和管理应用程序的各个方面。以下是一些常用的Spring Boot注解及其作用：

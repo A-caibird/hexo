@@ -3,9 +3,9 @@ title: beans详解
 date: 2023-11-18 16:22:56
 summary: 在Spring框架中，Bean是由IoC（Inversion of Control，控制反转）容器所创建、管理和组装的对象。 
 tags:
- - spring
+ - Spring
 categories:
- - spring
+ - Spring
 ---
 在Spring框架中，Bean是由IoC（Inversion of Control，控制反转）容器所创建、管理和组装的对象。IoC是一种设计模式，它将对象的创建和依赖关系的管理从应用程序代码中解耦出来，交由容器负责。
 
