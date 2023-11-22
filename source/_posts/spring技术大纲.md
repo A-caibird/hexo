@@ -2,9 +2,9 @@
 title: spring技术大纲
 date: 2023-11-18 16:28:32
 tags:
-  - spring
+  - Spring
 categories:
-  - spring
+  - Spring
 summary: Spring 核心理念总结
 ---
 1. IoC（控制反转）和DI（依赖注入）
