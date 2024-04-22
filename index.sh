@@ -6,7 +6,7 @@ hexo generate
 # 检查a命令是否执行成功
 if [ $? -eq 0 ]; then
     # 复制./public目录的所有内容到../GithubPages
-    cp -r ./public/* ../GithubPags
+    cp -r ./public/* ../GithubPages
 
     # 在../GithubPages下执行git add .
     cd ../GithubPages
