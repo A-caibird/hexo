@@ -1,5 +1,5 @@
 ---
-title: Typescirpt基础类型
+title: vue with Typescirpt
 tags:
   - Typescript
 categories:
@@ -15,7 +15,7 @@ summary: Typescirpt基础类型总结
 在TypeScript文件中导入Vue组件时，需要额外的配置才能让TypeScript识别Vue文件。这是因为TypeScript默认不知道如何处理Vue文件。以下是一些可能会帮助解决此问题的步骤：
 
 1. 在项目根目录中创建一个名为 `shims-vue.d.ts` 的新文件。该文件应包含以下代码：
-   
+
    ```typescript
    declare module "*.vue" {
      import { defineComponent } from "vue";
@@ -25,7 +25,7 @@ summary: Typescirpt基础类型总结
    ```
 
 2. 在 `tsconfig.json` 文件中添加以下选项：
-   
+
    ```json
    {
      "compilerOptions": {
@@ -188,7 +188,7 @@ let person: { age: Number; name: String; add(age: Number): void } = {
     age: 34,
     name: 'fas',
     add(age) { }
-} 
+}
 ```
 
 ### 对象的可选属性
